@@ -4,7 +4,7 @@ import { motion, useInView, useMotionValue, useSpring } from 'motion/react';
 const stats = [
   { value: 5, suffix: '+', label: 'Years of Excellence' },
   { value: 10, suffix: '+', label: 'Clients Served' },
-  { value: 10, suffix: '+', label: 'Placements Made' },
+  { value: 400, suffix: '+', label: 'Permanent Job Placements Made' },
   { value: 98, suffix: '%', label: 'Success Rate' },
 ];
 
