@@ -45,19 +45,27 @@ export function CTA() {
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <motion.button
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "mailto:info@coll8tech.com"
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-white text-gray-900 rounded-full hover:bg-gray-100 transition-colors inline-flex items-center gap-2"
               >
-                <Mail className="w-5 h-5" />
+                <Mail href="mailto:info@coll8tech.com" className="w-5 h-5" />
                 Contact Us Today
               </motion.button>
               <motion.button
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "tel:+918866685311"
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 border-2 border-white text-white rounded-full hover:bg-white hover:text-gray-900 transition-colors inline-flex items-center gap-2"
               >
-                <Phone className="w-5 h-5" />
+                <Phone href="tel:+918866685311" className="w-5 h-5" />
                 Call Now
               </motion.button>
             </motion.div>
