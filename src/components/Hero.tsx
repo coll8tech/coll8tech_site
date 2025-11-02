@@ -85,7 +85,7 @@ export function Hero() {
         {/* Scroll indicator */}
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          animate={{ opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
           className="absolute bottom-12 left-1/2 -translate-x-1/2"
         >
