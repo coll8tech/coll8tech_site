@@ -1,11 +1,22 @@
+# Coll8Tech Website 🚀
 
-  # Futuristic Web Design
+This is the official website for **Coll8Tech**, built with [Vite](https://vitejs.dev/) for fast, modern front-end development and optimized static builds.  
+The project is fully compatible with [Vercel](https://vercel.com/) for zero-configuration deployment.
 
-  This is a code bundle for Futuristic Web Design. The original project is available at https://www.figma.com/design/pHi5zfaJivvrglHC9v8weA/Futuristic-Web-Design.
+---
 
-  ## Running the code
+## 🧩 Tech Stack
 
-  Run `npm i` to install the dependencies.
+- ⚡ **Vite** — next-generation frontend tooling  
+- 🧱 **React / TypeScript** — modern component-based UI  
+- 🎨 **Tailwind CSS** — utility-first CSS framework  
+- ☁️ **Vercel** — fast static deployment and hosting  
 
-  Run `npm run dev` to start the development server.
-  
+---
+
+## 🛠️ Local Development
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/coll8tech/coll8tech_site.git
+cd coll8tech_site
